@@ -1,0 +1,17 @@
+Se cere realizarea unui script interactiv care colectează și afișează informații despre sistem și permite utilizatorului să efectueze diverse operațiuni. Scriptul trebuie să afișeze un meniu interactiv, să aștepte introducerea unei opțiuni valide și să revină la meniu după fiecare acțiune, permițând alegerea unei noi opțiuni sau ieșirea din program.
+
+Meniul va conține următoarele opțiuni:
+
+    1.Ieșire – Închide scriptul.
+    2.Informații despre variabilele de sistem – Afișează conținutul unor variabile importante, precum: utilizatorul curent , directorul curent si limba setata pentru sistem ( vezi  $USER, $PWD , $LANG )
+    3.Afișare shell-uri:  Să se afișeze primele 3 shell-uri ale sistemului de operare ( vezi /etc/shells )
+    4.Gestionare directoare și fișiere: 
+        Creare director – Utilizatorul introduce un nume și scriptul creează acel director.
+        Mutare în noul director – După crearea directorului, utilizatorul poate naviga în acesta.
+        Creare fișier și copiere – Utilizatorul introduce un nume de fișier, scriptul îl creează și îl copiază în directorul creat.
+    5.Mutare și redenumire fișiere – Permite utilizatorului să introducă un nume de fișier existent și să îl mute într-un alt director sau să îl redenumească.
+    6.Ștergere director: să se permită utilizatorului să introducă numele directorului create la punctul 4 și să șteargă acel director și toate fișierele din interiorul lui 
+    7.Afișare memorie: afișarea memoriei totale și a memoriei libere a sistemului de operare. 
+    8.Căutare avansată în fișiere – Permite utilizatorului să introducă un cuvânt cheie și să caute toate aparițiile acestuia în numele fișierelor .log din /var/log/ 
+    9.Sa se afișeze toate fișierele de log. Sa se creeze o funcție care primește ca si parametrii citiți de la tastatura un nume de fișier de log (ori curent ori arhivat) și un text, si care va căuta si afișa liniile care conțin textul primit ca si parametru.
+
